@@ -149,7 +149,7 @@ void printStatus(const Player* const player[], const int player_count) {
 }
 
 void printDeck(const Deck* d, const int print) {
-  std::string pd = "The number of cards in deck is ";
+  std::string pd = "The number of cards in the deck is ";
   pd += std::to_string(d->cards.size());
   pd += ". Current deck:\n";
 
